@@ -1,3 +1,20 @@
 /venv
 /.idea
 .env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Recursive cache ignore (important)
+**/__pycache__/
+
+.vscode/
+.idea/
+
+# Django stuff
+*.sqlite3
+media/
+staticfiles/
